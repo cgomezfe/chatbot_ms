@@ -1,0 +1,20 @@
+@api = http://localhost:3000/chats 
+
+
+GET {{api}}
+
+###
+GET {{api}}/16
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+    "questionUser": "test de pregunta 100",
+    "answer": "test de respuesta 100"
+}
+
+###
+DELETE {{api}}/2
+
